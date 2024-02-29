@@ -9,7 +9,7 @@ function Services() {
    
       <div>
 
-    <div className="pt-20 bg-gray-800">
+    <div className="pt-10 bg-gray-800">
   <div className="header">
     <h1 className="text-4xl font-extrabold text-center text-black dark:text-white">We've got you <span className="text-tmk-blue">covered.</span></h1>
     <p className="w-full px-8 mx-auto my-4 font-light text-center text-black dark:text-white md:w-1/2 lg:w-1/3">
