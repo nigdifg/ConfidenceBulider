@@ -1,27 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 export default function Bookslot() {
     const [showForm, setShowForm] = useState(false);
-
-    useEffect(() => {
-        if (showForm) {
-            const script = document.createElement('script');
-            script.src = 'https://forms.app/static/embed.js';
-            script.async = true;
-            script.defer = true;
-            script.onload = () => {
-                new window.formsapp('65d6e825d1f4ea2e173c2df8', 'standard', {
-                    width: '100vw',
-                    height: '600px',
-                });
-            };
-            document.body.appendChild(script);
-
-            return () => {
-                document.body.removeChild(script);
-            };
-        }
-    }, [showForm]);
 
     return (
         <div>
@@ -49,7 +29,19 @@ export default function Bookslot() {
                         >
                         book
                         </button>
-                        {showForm && <div formsappId="65d6e825d1f4ea2e173c2df8"></div>}
+                        {showForm && 
+                           <iframe 
+                           src="https://docs.google.com/forms/d/e/1FAIpQLSduMxgp0-MYuUua3Odj0MMovhUH_JJC0PH5qSEIajf_WZ8yig/viewform?embedded=true" 
+                           width="100%" 
+                           height="1537" 
+                           frameborder="0" 
+                           marginheight="0" 
+                           marginwidth="0"
+                           title="My Form"
+                         >
+                           Loading…
+                         </iframe>
+                        }
                     </div>
                 </div>
             </div>
