@@ -6,7 +6,7 @@ function Services() {
 
   return (
       <div>
-    <div className="pt-20 dark:bg-gray-700">
+    <div className="pt-20 bg-gray-800">
   <div className="header">
     <h1 className="text-4xl font-extrabold text-center text-black dark:text-white">We've got you <span className="text-tmk-blue">covered.</span></h1>
     <p className="w-full px-8 mx-auto my-4 font-light text-center text-black dark:text-white md:w-1/2 lg:w-1/3">Tailwind Master Kit offers rich set of features to help you get the most out of the components and markup. Our components are Production ready and are completely accessible.</p>
