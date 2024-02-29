@@ -21,10 +21,6 @@ function Home() {
     <h2 className="text-gray-700 text-lg font-light dark:text-white mt-8">
     Transform your interview game with our all-inclusive approach! 
       <h3 className="dark:text-white text-black">Get your resume polished by experts, practice with professional mock interviews</h3>
-      
-      
-
-      
       <span className="dark:text-white text-black"> and embark on your journey to success.
       </span>
     </h2>
@@ -90,56 +86,6 @@ function Home() {
   </div>
 
 </div>
-        {/* <div className="container mx-auto">
-            <section style={{backgroundImage: "url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')", backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}} className="bg-gray-700 bg-blend-multiply">
-                <div className="hero-gradient px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-18">
-                <header className="flex flex-row justify-center md:h-96 items-center p-8">
-                <h1 className="md:text-4xl lg:text-6xl font-semibold text-gray-50">
-                Ace any
-                <div className="inline-block bg-yellow-500 transform -rotate-3 px-2 rounded-md py-1">Interview</div>
-                with us!
-                </h1>
-                </header>
-                    <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Practise makes a man perfect!</h1>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10">
-                        <div className="bg-white p-3 rounded shadow">
-                         
-                            <p className="text-lg font-normal text-gray-700">
-                                We provide a platform for mock interviews, where you can practice your interview skills and get feedback from experienced professionals.
-                            </p>
-                        </div>
-                        <div className="bg-white p-3 rounded shadow">
-                            <p className="text-lg font-normal text-gray-700">
-                                You can schedule an interview at a time that suits you, and choose from a variety of interview types and difficulty levels.
-                            </p>
-                        </div>
-                        <div className="bg-white p-3 rounded shadow">
-                            <p className="text-lg font-normal text-gray-700">
-                                We also offer a resume review service, where our team of experts will provide constructive feedback on your resume and suggest improvements. 
-                            </p>
-                        </div>
-                    </div>
-                    <h2 className='text-white mt-3'>
-                        Do you want to improve your interview skills?
-                    </h2>
-
-                    <div className="mt-5 flex flex-col sm:flex-row sm:justify-center sm:space-y-0">
-                    <a href="/bookslot" className="inline-flex justify-center items-center px-7 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-3 focus:ring-blue-300 dark:focus:ring-blue-900">
-                        Book a Free slot!
-                        <svg className="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                        </svg>
-                    </a>
-                    <a href="/about" className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ml-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
-                        Learn more
-                    </a>  
-                </div>
-                </div>
-
-              
-            </section>
-
-        </div> */}
         </div>
     );
 }

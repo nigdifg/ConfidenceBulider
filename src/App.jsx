@@ -20,7 +20,7 @@ function App() {
           <Route path ="/bookslotForm" element={<BookslotForm />} />
         </Routes>
       </div>
-      <footer className="fixed bottom-0 w-full bg-white dark:bg-gray-100 p-4 text-center border-t border-gray-200 dark:border-gray-600">
+      <footer className="fixed bottom-0 w-full bg-white dark:bg-gray-100 p-2 text-center border-t border-gray-200 dark:border-gray-600">
         <p>&copy; 2024 Interview Prep</p>
       </footer>
     </Router>
