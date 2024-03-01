@@ -2,7 +2,7 @@ import React from 'react'
 import anurg from '../assest/anurag.png'
 function Contact() {
   return (
-    <section className="relative z-10 min-h-screen bg-white dark:bg-gray-800">
+    <section className="relative overflow-hidden z-10 min-h-screen bg-white dark:bg-gray-800">
     <div className="container px-6 py-10 mx-auto">
         <div className="lg:flex lg:items-center lg:-mx-10">
             <div className="lg:w-1/2 lg:mx-10">
