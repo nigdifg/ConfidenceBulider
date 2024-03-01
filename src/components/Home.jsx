@@ -65,7 +65,7 @@ function Home() {
   <div className="flex p-40 flex-col justify-evenly sm:flex-auto sm:px-5 md:flex-row md:px-10 lg:px-40 ">
     <blockquote className="flex-col justify-between md:flex-row md:px-12 lg:px-20 p-40 dark:bg-gray-800 transition duration-500 text-xl italic font-semibold text-gray-900 dark:text-white">
    
-    <div className="box">
+    <div className="box sm:flex sm:flex-col">
       <i className='fas fa-quote-left fa2'></i>
       <div className="text">
         <i className='fas fa-quote-right fa1'></i>
@@ -74,7 +74,7 @@ function Home() {
         <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
         </svg>
           <p>
-            <span className='text-2xl'>In every mock interview, seeds of success sow,</span>
+          <span className='text-2xl'>In every mock interview, seeds of success sow,</span>
           <span className='text-2xl'> Dreams take flight, as preparation we bestow. </span>
           <span className='text-2xl'>With resilience, courage, and determination to show,</span>
           <span className='text-2xl'>Your dream job awaits, let's make it glow!</span>

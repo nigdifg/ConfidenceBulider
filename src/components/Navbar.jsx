@@ -11,8 +11,8 @@ function Navbar() {
     const isActive = (path) => location.pathname === path;
 
     return (
-        <nav className="relative bg-white shadow dark:bg-gray-800">
-            <div className="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
+        <nav className="bg-white shadow dark:bg-gray-800 sm:items-center">
+            <div className="container px-2 py-4 sm:items-center mx-auto md:flex md:justify-between md:items-center">
                 <div className="flex items-center justify-between">
                     <a href="#">
                         <img className="w-auto h-6 sm:h-7" src={logo} alt="" />
