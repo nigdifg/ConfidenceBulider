@@ -10,7 +10,7 @@ function Home() {
     return (
       <div className="overflow-hidden bg-gray-800">
     <div className="flex flex-col justify-between md:flex-row md:px-12 lg:px-20 p-30 dark:bg-gray-800 transition duration-500">
-        <div className="text-container md:mt-10 md:w-1/3 mx-auto px-4 lg:px-8">
+        <div className="text-container md:mt-10 md:w-1/2 mx-auto px-4 lg:px-8">
           <h2 className="text-black bg-gray-200 dark:bg-gray-700 rounded-md px-2 inline-block text-3xl dark:text-white my-4">
             Ace your
             <h1 className="bg-blue-600 text-4xl inline-block transform -rotate-3 px-2 rounded-md py-1  text-white"> Interview</h1> success with our comprehensive strategy!
