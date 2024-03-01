@@ -3,8 +3,8 @@ import '../index.css'
 const Contact = () => {
   return (
     <div>
-      <section className="flex flex-col relative z-10 overflow-hidden bg-gray-800 px-40 py-20 dark:bg-dark lg:py-[120px]">
-        <div className="container">
+      <section className="relative mb-10 z-10 overflow-hidden sm:ml-40 bg-gray-800 px-30 py-10 dark:bg-dark lg:py-[120px]">
+        <div className="container flex sm:w-2/3">
           <div className="-mx-4 flex flex-wrap lg:justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
               <div className="mb-12 max-w-[570px]">
@@ -70,8 +70,8 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
-              <div className="relative rounded-lg bg-white p-8 shadow-lg dark:bg-dark-2 sm:p-12">
+            <div className="w-full px-4 lg:w-1/2 sm:w-3/4 xl:w-5/12">
+              <div className="relative rounded-lg bg-white p-8 shadow-lg dark:bg-dark-2 sm:p-10">
                 <form method="POST" action="https://getform.io/f/95a757b5-53ec-4c8a-898b-332f059c2b0d">
                   <ContactInputBox
                     type="text"

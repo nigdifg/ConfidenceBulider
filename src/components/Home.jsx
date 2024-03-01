@@ -8,7 +8,7 @@ import harsh from '../assest/harsh.jpeg';
 import anshuman from '../assest/anshuman.jpeg';
 function Home() {
     return (
-      <div className="bg-gray-800">
+      <div className="overflow-hidden bg-gray-800">
     <div className="flex flex-col justify-between md:flex-row md:px-12 lg:px-20 p-30 dark:bg-gray-800 transition duration-500">
         <div className="text-container md:mt-10 md:w-1/3 mx-auto px-4 lg:px-8">
           <h2 className="text-black bg-gray-200 dark:bg-gray-700 rounded-md px-2 inline-block text-3xl dark:text-white my-4">
