@@ -8,7 +8,7 @@ import mock from '../assest/mock.jpg';
 function About() {
   return (
     <div>
-      <section className="py-20 ">
+      <section className="py-10 ">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <div className="mb-14 text-center">
                   <h2 className="text-4xl text-center font-bold text-blue-200 leading-[3.25rem] mb-6 max-w-max lg:max-w-3xl lg:mx-auto">
