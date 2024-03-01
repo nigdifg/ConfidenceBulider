@@ -123,7 +123,7 @@ function About() {
                         <img className="h-10 w-10" src={ayush} alt="Ayush image" />
                         <div className="block">
                             <h5 className="text-gray-900 font-medium transition-all duration-500  mb-1">Ayush Raj</h5>
-                            <span className="text-sm leading-4 text-gray-500">SDE at Atlansian </span>
+                            <span className="text-sm leading-4 text-gray-500">SDE at Atlasian </span>
                         </div>
                     </div>
                 </div>
