@@ -45,7 +45,7 @@ function Home() {
       </div>
       <div>
         <h3 className="text-gray-700 md:text-lg font-light dark:text-white mt-7">
-          Trusted by the top employee of<p>Atlansian, GE HealthCare, BNY Mellon,Chubb,etc.</p>
+          Trusted by the top employee of<p>Atlasian, GE HealthCare, BNY Mellon,Chubb,etc.</p>
         </h3>
       </div>
     </div>
